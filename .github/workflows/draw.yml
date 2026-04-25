@@ -2,8 +2,7 @@ name: "Draw ZMK Keymap"
 
 on:
   workflow_dispatch:
-  # push時に自動で実行する場合は、以下のコメントアウトを外す
-  push:
+  pull_request:
     paths:
       - "config/mona2.keymap"
       - "keymap_drawer.config.yaml"
