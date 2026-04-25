@@ -226,11 +226,11 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '&mkp MB4'
   - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp RCLK'
-  - ''
+  - '&mkp MB5'
   - ''
   - ''
   - ''
@@ -252,9 +252,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB4'
+  - {t: ▽, type: trans}
   - ''
-  - '&mkp MB5'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
